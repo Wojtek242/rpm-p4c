@@ -12,7 +12,7 @@ Version:       0.0.0
 Release:       0.1.%{build_timestamp}git%{git_commit_short}%{?dist}
 License:       ASL 2.0
 URL:           https://github.com/p4lang/p4c
-Source0:       https://github.com/p4lang/p4c/archive/%{git_revision}.tar.gz#/p4c-git.tar.gz
+Source0:       https://github.com/p4lang/p4c/archive/%{git_commit}.tar.gz#/p4c-git.tar.gz
 Source1:       check-and-update.sh
 
 BuildRequires: bison
