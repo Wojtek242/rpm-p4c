@@ -12,7 +12,8 @@ Version:       0.0.0
 Release:       0.1.%{build_timestamp}git%{git_commit_short}%{?dist}
 License:       ASL 2.0
 URL:           https://github.com/p4lang/p4c
-Source0:       p4c-git.tar.gz
+Source0:       https://github.com/p4lang/p4c/archive/%{git_revision}.tar.gz#/p4c-git.tar.gz
+Source1:       check-and-update.sh
 
 BuildRequires: bison
 BuildRequires: boost-devel
@@ -86,5 +87,5 @@ cd build
 %{_datadir}/p4c
 
 %changelog
-* Sat Dec 05 2020 Wojciech Kozlowski <wk@wojciechkozlowski.eu> 1:0.0.0-0.1
+* Sat Mar 06 2021 Wojciech Kozlowski <wk@wojciechkozlowski.eu> 1:0.0.0-0.1
 - Initial spec file
