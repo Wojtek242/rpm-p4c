@@ -19,6 +19,7 @@ BuildRequires: bison
 BuildRequires: boost-devel
 BuildRequires: cmake
 BuildRequires: flex
+BuildRequires: git
 BuildRequires: gc-devel
 BuildRequires: gcc
 BuildRequires: gcc-c++
