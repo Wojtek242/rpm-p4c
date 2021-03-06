@@ -1,7 +1,7 @@
 %global _hardened_build 1
 
 %define build_timestamp %(date +"%Y%m%d")
-%define git_commit ba2aec75a3ff1837b95e6f18b415c13ffa02b997
+%define git_commit 01b63cb3d5a78b416c1ca6bc867fe3882929f794
 %define git_commit_short %(echo %{git_commit} | head -c 14)
 
 # This file is encoded in UTF-8.  -*- coding: utf-8 -*-
