@@ -1,7 +1,7 @@
 %global _hardened_build 1
 
 %define build_timestamp %(date +"%Y%m%d")
-%define git_commit 7749dfbf2edc0450898b5537feb32abb970f5407
+%define git_commit 
 %define git_commit_short %(echo %{git_commit} | head -c 14)
 
 # This file is encoded in UTF-8.  -*- coding: utf-8 -*-
@@ -9,7 +9,7 @@ Summary:       Reference compiler for the P4 programming language.
 Name:          p4c
 Epoch:         1
 Version:       0.0.0
-Release:       0.3.%{build_timestamp}git%{git_commit_short}%{?dist}
+Release:       0.4.%{build_timestamp}git%{git_commit_short}%{?dist}
 License:       ASL 2.0
 URL:           https://github.com/p4lang/p4c
 Source0:       https://github.com/p4lang/p4c/archive/%{git_commit}.tar.gz#/p4c-git.tar.gz
